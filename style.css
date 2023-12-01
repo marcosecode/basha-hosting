@@ -234,6 +234,9 @@ footer .social-icon a:hover{
 
 
 @media (max-width:1023px){
+    body{
+        background-color: black;
+    }
     header{
         padding: 12px 20px;
     }
