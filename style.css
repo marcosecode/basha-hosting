@@ -233,70 +233,37 @@ footer .social-icon a:hover{
 
 
 
-@media (max-width: 767px) {
-    header {
-        padding: 12px 10px;
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
     }
 
-    .logo {
-        font-size: 1.2em;
+    .navigation a{
+        padding-left: 10px;
     }
 
-    .navigation {
-        justify-content: center;
+    .title{
+        font-size: 1.8em;
     }
 
-    .navigation a {
-        margin: 0 10px;
+    section{
+        padding: 80px 20px;
     }
 
-    header nav a img {
+    .main-content h2{
+        font-size: 1em;
+    }
+
+    .main-content h3{
+        font-size: 1.6em;
+    }
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    img{
         display: none;
     }
 
-    .main h2 {
-        margin-top: 30px;
-    }
-
-    .main h2 span {
-        font-size: 1.8em;
-        margin-top: 10px;
-    }
-
-    .main div img {
-        max-width: 300px;
-    }
-
-    .main-btn {
-        margin: 20px auto;
-    }
-
-    .about div h1 {
-        font-size: 1.5em;
-    }
-
-    .about div p {
-        font-size: 14px;
-    }
-
-    .about img {
-        max-width: 300px;
-    }
-
-    .card {
-        width: calc(50% - 20px);
-    }
-
-    .footer {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-title {
-        margin-bottom: 10px;
-    }
-
-    footer .social-icon a {
-        margin: 10px 0;
-    }
 }
